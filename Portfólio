@@ -1,0 +1,190 @@
+<div class="contanier">
+  <div class="base">
+     <div class="col-s-9 col-3">
+    <div class="cubo1"></div>
+  </div>
+   </div>
+    <div class="base">
+    <div class="col-s-3 col-6">
+    <div class="cubo2"></div>
+  </div>
+  </div>
+  <div class="col-s-12 col-3">
+    <div class="base">
+    <div class="cubo3"></div>
+  </div>
+  </div>
+</div>
+<style>
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(http://cdn.playbuzz.com/cdn/74b156b6-9c2a-4ba8-8c65-ec92554fa82f/c119ad5a-bbe0-486d-b56b-61ce4e982034_560_420.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+div.base{
+    background-color: #49b293;
+    width: 200px;
+    height: 200px;
+    margin: 100px auto 0 auto;
+    transform: scale(0.5) rotateX(0deg) rotateZ(0deg);
+    transform-style: preserve-3d;
+    object-fit: fill;
+  background-size: cover;
+}
+.cubo1,
+.cubo1:after,
+.cubo1:before {
+    box-shadow: inset 0 0 0 .25em hsla(0,0%,0%,.1);
+    content: '';
+    float: left;
+    position: absolute;
+    height: 12.5em;
+    width: 12.5em;
+    transform-style: preserve-3d;
+}
+/* Top */
+.cubo1{
+   background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCACu01mtwYTPJZJ1um5o2w-R7ROk1I4TdD2ZSDLeLH7vw265c");
+  background-size: cover;
+    position: relative;
+    transform: translateZ(12.5em);
+    transition: .25s;
+}
+/* Left */
+.cubo1:after {
+  background-image: url("https://ewedit.files.wordpress.com/2015/01/futurama-1.jpg?w=612");
+  background-size: cover;
+    transform: rotateX(-90deg) translateY(12.5em);
+    transform-origin: 100% 100%;
+  max-width: 200px;
+  max-height: 200px;
+}
+/* Right */
+.cubo1:before {
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoQ70entX44T8BwMXpQJYtd9-Fy-S2EBb93BSsejPJeoy04I2c");
+  background-size: cover;
+    transform: rotateX(-90deg) rotateY(-90deg) translateX(12.5em);
+    transform-origin: 100% 0;
+   max-width: 200px;
+  max-height: 200px;
+}
+/* Mouse over*/
+.base:hover{
+  transform: scale(1) rotateX(45deg) rotateZ(45deg);
+  transition: all .5s ease-out;
+}
+
+/* Left */
+.cubo2:after {
+    background-image: url("https://ae01.alicdn.com/kf/HTB137h3NFXXXXaSXVXXq6xXFXXXz/Custom-DeadPool-Poster-Deadpool-font-b-Marvel-b-font-font-b-Comics-b-font-Stickers-Special.jpg");
+  background-size: cover;
+    transform: rotateX(-90deg) translateY(12.5em);
+    transform-origin: 100% 100%;
+  max-width: 200px;
+  maw-height: 200px;
+}
+/* Right */
+
+.cubo2,
+.cubo2:after,
+.cubo2:before {
+    box-shadow: inset 0 0 0 .25em hsla(0,0%,0%,.1);
+    content: '';
+    float: left;
+    position: absolute;
+    height: 12.5em;
+    width: 12.5em;
+    transform-style: preserve-3d;
+}
+/* Top */
+.cubo2 {
+   background: url("https://ae01.alicdn.com/kf/HTB137h3NFXXXXaSXVXXq6xXFXXXz/Custom-DeadPool-Poster-Deadpool-font-b-Marvel-b-font-font-b-Comics-b-font-Stickers-Special.jpg");
+  background-size: cover;
+    position: relative;
+    transform: translateZ(12.5em);
+    transition: .25s;
+}
+/* Left */
+.cubo2:after {
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/53944125fab3e35deb287972_d5bda395.jpeg?height=354&region=0%2C0%2C1920%2C1080&width=630");
+  background-size: cover;
+    transform: rotateX(-90deg) translateY(12.5em);
+    transform-origin: 100% 100%;
+  max-width: 200px;
+  maw-height: 200px;
+}
+/* Right */
+.cubo2:before {
+    background-image: url("http://www.argos.co.uk/wcsstore/argos/en_GB/images/suppliershop/sitebuilder/shops/marvel/ultimate-spider-man.jpg");
+  background-size: cover;
+  transform: rotateX(-90deg) rotateY(-90deg) translateX(12.5em);
+  transform-origin: 100% 0;
+}
+.base{
+  margin: margin: 100px auto 0 auto;
+  max-width: 200px;
+  maw-height: 200px;
+}
+
+/* Left */
+
+/* Right */
+
+.cubo3,
+.cubo3:after,
+.cubo3:before {
+    box-shadow: inset 0 0 0 .25em hsla(0,0%,0%,.1);
+    content: '';
+    float: left;
+    position: absolute;
+    height: 12.5em;
+    width: 12.5em;
+    transform-style: preserve-3d;
+}
+/* Top */
+.cubo3 {
+   background: url("https://static.globalnoticias.pt/storage/DN/2017/dn2015_detalhe_topo/ng8097631.jpg");
+  background-size: cover;
+    position: relative;
+    transform: translateZ(12.5em);
+    transition: .25s;
+}
+/* Left */
+.cubo3:after {
+    background-image: url("https://cdn.awsli.com.br/400x400/239/239279/produto/7169624/totens-displays-os-simpsons-ea6df46a.jpg");
+  background-size: cover;
+    transform: rotateX(-90deg) translateY(12.5em);
+    transform-origin: 100% 100%;
+}
+/* Right */
+.cubo3:before {
+    background-image: url("https://tabernadozezim.files.wordpress.com/2013/05/370.jpg");
+  background-size: cover;
+  transform: rotateX(-90deg) rotateY(-90deg) translateX(12.5em);
+  transform-origin: 100% 0;
+}
+.base{
+  margin: margin: 100px auto 0 auto;
+}
+
+h1{
+    color: #7D26CD;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+img{
+  max-width: 200px;
+  height: 200px;
+}
+</style>
